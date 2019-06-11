@@ -4,6 +4,7 @@
   "description": "This project is just for training create GraphQL project with Node.js (with Express framework)",
   "main": "index.js",
   "scripts": {
+    "start": "clear; nodemon index.js;",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/NutthakornManeewan/graphql-with-node#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
     "graphql": "^14.3.1"
   }
 }
